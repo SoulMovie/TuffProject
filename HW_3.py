@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("image/simon.jpg")
+img = cv2.imread("images/simon.jpg")
 img = cv2.resize(img, (400, 400))
 
 cv2.rectangle(img, (140, 0), (270, 130), (255, 0, 255), 2)
